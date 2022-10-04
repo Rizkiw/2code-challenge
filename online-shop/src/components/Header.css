@@ -1,0 +1,25 @@
+.header-wrapper {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.header-logo {
+    font-family: 'Anek Latin', sans-serif;
+    font-size: 32px;
+    margin-left: 0;
+}
+
+.header-menu {
+    display: flex;
+    flex-direction: row;
+}
+
+.header-menu div {
+    font-weight: bold;
+}
+
+.header-symbol {
+    display: flex;
+    padding: 1rem;
+}
