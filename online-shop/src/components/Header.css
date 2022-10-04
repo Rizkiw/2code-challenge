@@ -1,7 +1,12 @@
+.header {   
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
 .header-wrapper {
     display: flex;
     justify-content:space-between;
     align-items: center;
+    padding: 2rem 0;
 }
 
 .header-logo {
@@ -16,10 +21,19 @@
 }
 
 .header-menu div {
+    display: flex;
     font-weight: bold;
+    padding: 1rem;
 }
 
 .header-symbol {
     display: flex;
-    padding: 1rem;
+}
+
+.header-symbol div {
+    padding-left: 1rem;
+}
+
+.box {
+    padding-left: 32vh;
 }
